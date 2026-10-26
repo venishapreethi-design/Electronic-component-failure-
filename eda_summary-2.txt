@@ -1,0 +1,18 @@
+Rows: 3000\n\nMissing values:\ntimestamp             0
+component_id          0
+component_type        0
+temperature_c         0
+voltage_v             0
+current_a             0
+resistance_ohm        0
+failure_within_24h    0\n\nNumeric summary:\n       temperature_c    voltage_v    current_a  resistance_ohm  failure_within_24h
+count    3000.000000  3000.000000  3000.000000     3000.000000         3000.000000
+mean       47.789358     5.008421     0.401727      305.206481            0.088000
+std        12.944458     0.656283     0.245107      415.179327            0.283342
+min        15.000000     2.147100     0.050240        0.094500            0.000000
+25%        38.974250     4.573850     0.238955        0.547900            0.000000
+50%        47.888000     4.995750     0.341125      151.384250            0.000000
+75%        56.254750     5.452100     0.498372      642.154350            0.000000
+max        92.903000     7.141000     3.203940     1355.000200            1.000000\n\nLabel rate:\nfailure_within_24h
+0    0.912
+1    0.088\n

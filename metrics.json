@@ -1,0 +1,49 @@
+{
+  "dataset_rows_after_validation": 3000,
+  "train_rows": 2400,
+  "test_rows": 600,
+  "positive_label_rate": 0.088,
+  "accuracy": 0.8966666666666666,
+  "precision": 0.15384615384615385,
+  "recall": 0.03773584905660377,
+  "f1_score": 0.06060606060606061,
+  "roc_auc": 0.7110482563554206,
+  "confusion_matrix_labels_0_1": [
+    [
+      536,
+      11
+    ],
+    [
+      51,
+      2
+    ]
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.9131175468483816,
+      "recall": 0.979890310786106,
+      "f1-score": 0.9453262786596119,
+      "support": 547.0
+    },
+    "1": {
+      "precision": 0.15384615384615385,
+      "recall": 0.03773584905660377,
+      "f1-score": 0.06060606060606061,
+      "support": 53.0
+    },
+    "accuracy": 0.8966666666666666,
+    "macro avg": {
+      "precision": 0.5334818503472678,
+      "recall": 0.5088130799213549,
+      "f1-score": 0.5029661696328362,
+      "support": 600.0
+    },
+    "weighted avg": {
+      "precision": 0.8460485737998515,
+      "recall": 0.8966666666666666,
+      "f1-score": 0.8671759927315482,
+      "support": 600.0
+    }
+  },
+  "note": "Synthetic labels are illustrative; these metrics are not real-world validation."
+}
